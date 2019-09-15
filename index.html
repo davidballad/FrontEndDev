@@ -3,21 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>David Balladares</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Inconsolata|Saira+Semi+Condensed|Special+Elite&display=swap" rel="stylesheet">
+
   </head>
   <body>
-    <table cellspacing = "40">
-      <tr>
-        <td><img width="500" height="250" src="images/ce-travel.jpg" alt="David's Home Page"></td>
-        <td><h1>Welcome to David's WebSite</h1></td>
-      </tr>
-    </table>
+    <div class="top-index">
+      <table>
+        <tr>
+          <td><img class="frontpage" width="302" height="302" src="images/ce-travel.jpg" alt="David's Home Page"></td>
+          <td><h1 class="heading">I'm David <br>a Software Engineer</h1></td>
+        </tr>
+      </table>
+    </div>
 
-      <hr size="3" noshade>
-
-      <h2><em>I am a Software Engineer at <a href="https://www.njit.edu/">NJIT</a></em></h2>
+<div class="middle">
+      <h2><em>I attend  <a href="https://www.njit.edu/">NJIT</a> and <a href="https://www.rutgers.edu/">Rutgers University</a>
+      </em></h2>
+      <hr>
 
         <h3>Skills</h3>
-        <table cellspacing ="10">
+        <img class="skills" src="images/skills.gif" alt="skills gif">
+        <table class="mid-table" cellspacing ="10">
           <tr>
             <td>Java</td>
             <td>⭐⭐⭐⭐⭐</td>
@@ -32,7 +40,7 @@
           </tr>
           <tr>
           <td>CSS</td>
-          <td>⭐⭐⭐</td>
+          <td>⭐⭐⭐⭐⭐</td>
           </tr>
           <tr>
             <td>PHP</td>
@@ -41,7 +49,8 @@
         </table>
 <hr>
       <h3>Work Experience</h3>
-      <table cellspacing = "10">
+      <img class="work" src="images/work.gif" alt="work gif">
+      <table class="mid-table" cellspacing = "25">
         <thead>
           <tr>
             <th>Date</th>
@@ -60,18 +69,20 @@
       </table>
 <hr>
 
+      <a href="contact.html">Contact Info</a><br>
 
-
-      <a href="projects.html">My Projects</a>
-      <br>
+      <a href="projects.html">My Projects</a><br>
 
       <a download href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf"> Download CheatSheet</a>
+  </div>
 
+<div class="bottom">
 
-      <h2>Help?</h2>
-		For additional assistance please see
-		<a target="_blank" title="UCS Homepage" href=http://web.njit.edu>http://web.njit.edu</a> or contact the
-		<a target="_blank" title="Computing Helpdesk" href=http://ist.njit.edu/support/helpdesk.php>NJIT
-			Computing Helpdesk</a>.
+      <h2 class="help">Need Help?</h2>
+		<p><em>For additional assistance please see:</em></p>
+		<a  href=http://web.njit.edu>New Jersey Institute of Technology</a><br>
+    <a  href=http://rutgers.edu>Rutgers University</a>
+    <p>© 2019 David Balladares</p>
+  </div>
   </body>
 </html>
