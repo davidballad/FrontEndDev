@@ -1,0 +1,14 @@
+There were no arguments on the command line to be tested for file open.
+There were no arguments on the command line to be tested for file open.
+There were no arguments on the command line to be tested for file open.
+There were no arguments on the command line to be tested for file open.
+There were no arguments on the command line to be tested for file open.
+There were no arguments on the command line to be tested for file open.
+
+Wed Aug 14 16:11:46 2019
+There were no arguments on the command line to be tested for file open.
+COMPLETED
+
+Wed Aug 14 16:12:06 2019
+There were no arguments on the command line to be tested for file open.
+COMPLETED

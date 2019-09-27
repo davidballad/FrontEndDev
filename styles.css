@@ -17,8 +17,8 @@ hr{
 
 h1{
   position: relative;
-  left: 20px;
-  font-size: 40px;
+  width: 100%;
+  font-size: 50px;
   color: #89a3b2;
   font-family: 'Special Elite', cursive;
 }
@@ -46,9 +46,8 @@ p{
   border-style: solid;
   border-color: transparent;
   border-radius:200px;
-  position: relative;
-  bottom: 9px;
-  left: 20px;
+  /* bottom: 9px;
+  left: 20px; */
 }
 
 img:hover{
@@ -59,6 +58,7 @@ img:hover{
   background-color: #3c70a4;
   border-radius: 10px;
   height: 280px;
+  width: auto;
   margin-bottom: 75px;
 }
 

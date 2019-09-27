@@ -1,0 +1,29 @@
+CS288 H3 Session-2 HW#??”; Program name; Author; Date Created.  Print requests shall be displayed unless otherwise noted.
+
+HW9
+Assignment: Write a very simple program, Scope and Header Files (see program 4-4 and 4-5). 
+The first file will have an include of a personal .h file, any external variables, its main function, and to call a function. 
+The second file would be a your personal .h file, have a constant variable SALESTAX initialized to 0.06625  ,   price_productA initialized to 12.25    ,   price_productB initialized to 20.75 .     
+The first program would print on new line the grand_total.  Call a function to take value of  price_productA then calculate total =  price_productA + ( price_productA *  SALESTAX), pass the total value back to the main, then in main add grand_total = grand_total + total.  In main print item, item cost, item total, grand total.
+<END>  [not asking you to do this however perhaps the main would prompt the user for products to add to their shopping cart, then calculate the bottom line.  hence .h would have a true product list.] Done
+
+HW10
+Assignment: Write a program Character Pointers and Functions.  (like program #5-5).  Keyboard input to enter one character string.  Using a single dimension array, populate the array with the character string, call a function using pointers to reverse order the character string, pass back to the main the output and total_count_of_characters.  (maybe use a global variable for the total count).  Print display the reversed char string and total_count.
+<END> Done
+
+HW11
+Assignment: Write a very simple program, Command Line Arguments.  The program should first read the input arguments (both exe name and char string); secondly print on new line the program name then print on new line the char string then print on newline "Program finished!".  Run the exe in the system screen (Microsoft Command Prompt, or, Linux Terminal) the line should read for example "c:\HW11your_program_name.exe hellogoodpeople"     Take a snapshot screen print of the outcome.  Upload the .c and the screen print.
+
+HW12
+Assignment: Write a simple program Passing Structure to Function.  Global Structure should have char TeamName, int Wins, int Losses, int PositionInRank, float RankPerct.  Main populates fields with values.  Main calls function.  Function prints values individual lines.   
+
+HW13
+Assignment: Write a simple global Typedef program, see text book pg146.  The structure has char MealName[20], char Ingredient1[10], char Ingredient2[30], float Rating,  The main program references the global structure assigns values using strcpy program statement to MealName="Pasta and Meat"   Ingredient1="Spaghetti"   Ingredient2="Meatballs with Eggs & Bread Crumbs"   Rating= 98%.   Then use printf to display all values as a proper sentence on one line.  What did you notice about the data?
+<END> 
+
+HW14
+Assignment: Write a simple program (see text book page162-165) to read one text file and print to screen all its text.  Make use of the stderr and exit program statements should there not be only one text file identified on the command line.  If successful then before fclose of the text file, use the fputs program statement to write a line "72 degrees Sunny light wind.  Nice!\n".  print the return code of fputs (should be zero).  close and exit.
+Test your program on the Command Prompt line, or Terminal, running the executable and text file.  e.g.  c:\program.exe textfile.txt
+<END>
+
+

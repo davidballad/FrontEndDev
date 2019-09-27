@@ -1,0 +1,1 @@
+There were no arguments on the command line to be tested for file open.

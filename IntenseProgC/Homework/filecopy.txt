@@ -1,0 +1,16 @@
+FILE *pFile;
+FILE *pFile2;
+char buffer[256];
+
+pFile=fopen("myfile.txt", "r");
+pFile2=fopen("myfile2.txt", "a");
+if(pFile==NULL) {
+    perror("Error opening file.");
+}
+else {
+    while(fgets(buffer, sizeof(buffer), pFile)) {
+        fprintf(pFile2, "%s", buffer);
+    }
+}
+fclose(pFile);
+fclose(pFile2);
