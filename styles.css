@@ -16,9 +16,7 @@ hr{
 }
 
 h1{
-  position: relative;
-  width: 100%;
-  font-size: 50px;
+  font-size: 2em;
   color: #89a3b2;
   font-family: 'Special Elite', cursive;
 }
@@ -41,13 +39,16 @@ p{
   color: white;
 }
 
+.heading{
+  position: relative;
+  top: .5em;
+}
+
 /* Front Page Image*/
 .frontpage{
   border-style: solid;
   border-color: transparent;
   border-radius:200px;
-  /* bottom: 9px;
-  left: 20px; */
 }
 
 img:hover{
@@ -57,23 +58,21 @@ img:hover{
 .top-index{
   background-color: #3c70a4;
   border-radius: 10px;
-  height: 280px;
-  width: auto;
+  height: 200px;
   margin-bottom: 75px;
+  display: flex;
+  justify-content: space-around;
+
 }
 
 .top{
   background-color: #3c70a4;
   border-radius: 10px;
-}
 
-.middle{
-  padding: 20px;
 }
 
 .mid-table{
-  position: relative;
-  left: 15px;
+    display: inline-block;
 }
 
 .bottom{
@@ -86,20 +85,23 @@ img:hover{
   position: relative;
   top: 10px;
   height: 150px;
+  border-radius: 200px;
+  border-style: solid;
+  border-color: transparent;
 }
 
 .work{
   width: 230px;
-  position: absolute;
   border-radius: 100px;
   right: 100px;
 }
 
 .skill-image{
-  position: relative;
   width: 170px;
   height: 170px;
   border-radius: 200px;
+  border-style: solid;
+  border-color: transparent;
 }
 
 .a-link{
@@ -140,4 +142,8 @@ img:hover{
   background-image: -o-linear-gradient(top, #0e5c8c, #3498db);
   background-image: linear-gradient(to bottom, #0e5c8c, #3498db);
   text-decoration: none;
+}
+
+.email{
+  font-family: 'Saira Semi Condensed', sans-serif;
 }
