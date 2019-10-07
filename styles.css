@@ -5,6 +5,12 @@ body{
   font-family: 'Inconsolata', monospace;
 }
 
+a{
+  text-decoration: none;
+  color: #2d4059;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
 hr{
   /*background-color: none; not using this line of code*/
   border-style: none;
@@ -72,7 +78,8 @@ img:hover{
 }
 
 .mid-table{
-    display: inline-block;
+  display: inline-block;
+  align-items: center;
 }
 
 .bottom{
