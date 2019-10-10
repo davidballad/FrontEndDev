@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> New Student Registration </title>
+  </head>
+
+  <body>
+
+    <form action="dbase.php" method="POST">
+    <h1> New Course Registration </h1>
+      <table>
+        <tr>
+          <td> First Name: </td>
+          <td>
+            <input type="text" placeholder="First Name" name="firstn" required>
+          </td>
+        </tr>
+
+        <tr>
+          <td> Last Name: </td>
+          <td>
+            <input type="text" placeholder="Last Name" name="lastn" required>
+          </td>
+        </tr>
+
+        <tr>
+          <td> Phone: </td>
+          <td>
+            <input type="text" placeholder="Phone Number" name="phone" required>
+          </td>
+        </tr>
+
+        <tr>
+          <td> Email: </td>
+          <td>
+            <input type="text" placeholder="Email address" name="email" required>
+          </td>
+        </tr>
+
+        <tr>
+         <td> Student Status: </td>
+          <td>
+            <input type="text" placeholder="Active or Inactive" name="status" required>
+          </td>
+        </tr>
+
+
+      </table>
+
+      <form action="dbase2.php" method="POST">
+        <h2> Select Courses </h2>
+
+          <table>
+            <tr>
+              <td> Course Name: </td>
+              <td>
+                <input type="text" placeholder="Course" name="course_code" required>
+              </td>
+            </tr>
+
+            <tr>
+              <td> Course Description: </td>
+              <td>
+                <input type="text" placeholder="Description" name="Course Description" required>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="Submit" value="Submit">
+              </td>
+            </tr>
+            </table>
+      </form>
+
+
+    </form>
+    <h1>Search And Update Tool</h1>
+    <form method="post" action="searchtwo.php">
+      <input type="text" name="q" placeholder="Search">
+      <select name="column">
+        <option value="">Select</option>
+        <option value="firstn">First Name</option>
+        <option value="lastn">Last Name</option>
+        <option value="email">Email</option>
+        <option value="phone">Phone</option>
+        <option value="schedule_year">Year</option>
+
+      </select>
+      <input type="submit" name="submit" value="Find">
+
+    </form>
+
+  </body>
+</html>
