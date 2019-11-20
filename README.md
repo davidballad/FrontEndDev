@@ -1,7 +1,7 @@
 # FrontEndDev
 
 Practice code and personal small projects using:
--Javascript
+- Javascript
 - C
 - HTML and CSS
 
