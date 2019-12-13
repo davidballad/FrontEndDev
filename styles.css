@@ -26,7 +26,7 @@ hr{
 
 h1{
   font-size: 2em;
-  color: #89a3b2;
+  color: #2d4059;
   font-family: 'Special Elite', cursive;
 }
 
@@ -35,12 +35,9 @@ h2{
   font-family: 'Saira Semi Condensed', sans-serif;
 }
 
-.help{
-  color: #89a3b2;
-}
 
 h3{
-  color: #537d91;
+  color: white;
   font-family: 'Cinzel', serif;
 }
 
@@ -51,6 +48,7 @@ p{
 .heading{
   position: relative;
   top: .5em;
+  right: 25px;
 }
 
 /* Front Page Image*/
@@ -230,4 +228,19 @@ td{
     100% {
         transform: scale(0.95);
     }
+}
+
+form textarea{
+  border-radius: 10px;
+  border-style: double;
+}
+
+form input{
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+form label{
+  color: white;
 }
