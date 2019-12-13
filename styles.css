@@ -102,6 +102,7 @@ img:hover{
   border-radius: 20px;
   background-color: #3c70a4;
   padding-left: 20px;
+  
 }
 
 td{
@@ -177,4 +178,31 @@ td{
 
 .email{
   font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.me{
+  display: inline-grid;
+}
+
+.socialimg{
+  width: 30px;
+  height: 30px
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
