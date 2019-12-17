@@ -25,7 +25,6 @@ hr{
 }
 
 h1{
-  font-size: 2em;
   color: #89a3b2;
   font-family: 'Special Elite', cursive;
 }
@@ -46,13 +45,13 @@ p{
 }
 
 .heading{
-  position: relative;
-  top: .5em;
-  right: 25px;
+  margin-top: 60px;
+  display: flex;
 }
 
 /* Front Page Image*/
 .frontpage{
+  left:10px;
   border-style: solid;
   border-color: transparent;
   border-radius:200px;
@@ -70,17 +69,15 @@ img:hover{
 .top-index{
   background-color: #3c70a4;
   border-radius: 10px;
-  height: 200px;
+  height: 230px;
   margin-bottom: 75px;
   display: flex;
   justify-content: space-around;
-
 }
 
 .top{
   background-color: #3c70a4;
   border-radius: 10px;
-
 }
 
 .mid-table{
