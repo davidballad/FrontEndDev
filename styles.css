@@ -1,17 +1,24 @@
 body{
   margin: 1;
-  background-color: #2d4059;
+
   text-align: center;
-  font-family: 'Inconsolata', monospace;
+  /* font-family: 'Inconsolata', monospace; */
 }
 
 a{
   text-decoration: none;
   color: #36AEE0;
-  font-family: 'Saira Semi Condensed', sans-serif;
+  /* font-family: 'Saira Semi Condensed', sans-serif; */
 }
 a:hover{
   text-decoration: underline;
+  color: white;
+  font-style: italic;
+  text-shadow: -2px 2px black;
+}
+
+.projects{
+  text-align: left;
 }
 
 hr{
@@ -19,33 +26,32 @@ hr{
   border-style: none;
   border-top: dotted;
   border-width: 7px;
-  border-color: #f9f7f7;
+  border-color: black;
   height: 0;
   width: 40%;
 }
 
 h1{
   color: #89a3b2;
-  font-family: 'Special Elite', cursive;
-}
-
-h2{
-  color: white;
-  font-family: 'Saira Semi Condensed', sans-serif;
+  /* font-family: 'Special Elite', cursive; */
 }
 
 
 h3{
-  color: white;
-  font-family: 'Cinzel', serif;
+  color: black;
+  /* font-family: 'Cinzel', serif; */
 }
 
 p{
   color: white;
 }
 
+.projects{
+ color: inherit;
+}
+
 .heading{
-  display: flex;
+  display: block;
 }
 
 /* Front Page Image*/
@@ -56,22 +62,18 @@ p{
   border-radius:200px;
 }
 
-img:hover{
-  border-color: #ccc;
+.frontpage:hover{
+  box-shadow: 10px 10px 5px #ccc;
   border-width: -1px;
-}
-.nav:hover{
-  width: 102px;
-  height: 102px;
 }
 
 .top-index{
   background-color: #3c70a4;
   border-radius: 10px;
-  height: 230px;
+  height: 50px;
   margin-bottom: 75px;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
 .top{
@@ -79,41 +81,45 @@ img:hover{
   border-radius: 10px;
 }
 
-.mid-table{
-  display: inline-table;
-  align-items: center;
-  border-style: inset;
-  border-radius: 30px;
-}
+
 
 .skills{
+  padding: 20px;
   display: inline-table;
   width: 20%;
 }
 
 
-.bottom{
+.footer{
   border-radius: 20px;
-  background-color: #3c70a4;
   padding-left: 20px;
 
 }
 
-td{
-  color: #ccc;
-}
-
-.nav{
-  margin-top: 10px;
-}
-
 .git{
+
   position: relative;
   top: 10px;
-  height: 150px;
+  height: 120px;
   border-radius: 200px;
   border-style: solid;
   border-color: transparent;
+}
+
+.git:hover{
+  box-shadow: 5px 5px 2.5px #ccc;
+
+  border-width: -1px;
+}
+
+.linked{
+  height: 130px;
+}
+
+.exp-table{
+  width: 80%;
+  display: inline-table;
+  align-items: center;
 }
 
 .work{
@@ -130,14 +136,13 @@ td{
   border-color: transparent;
 }
 
-.a-link{
-  font-family: 'Saira Semi Condensed', sans-serif;
-  text-decoration: none;
-  color: #89a3b2;
+.skill-image :hover{
+  border-color: white;
 }
 
+
 .a-me{
-  font-family: 'Saira Semi Condensed', sans-serif;
+  /* font-family: 'Saira Semi Condensed', sans-serif; */
   text-decoration: none;
   color: white;
 }
@@ -171,23 +176,27 @@ td{
 }
 
 .email{
-  font-family: 'Saira Semi Condensed', sans-serif;
+  display: inline-block;
 }
 
 .me{
   display: inline-grid;
 }
 
+.image-me{
+  margin-bottom: 10px;
+}
+
 .socialimg{
-  width: 30px;
-  height: 30px
+  width: 40px;
+  height: 40px
 
 }
 
-.tooltip .tooltiptext {
+.moo .mootext {
   visibility: hidden;
-  background-color: black;
-  color: #fff;
+  background-color: white;
+  color: black;
   text-align: center;
   padding: 5px;
   border-radius: 6px;
@@ -199,13 +208,14 @@ td{
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
+.moo:hover .mootext {
   visibility: visible;
 }
 
 .linkme div{
-  display: inline-flex;
+  display: inline-block;
   position: relative;
+  padding-bottom: 1em;
 }
 
 .focus{
@@ -238,5 +248,9 @@ form input{
 }
 
 form label{
-  color: white;
+  color: black;
+}
+
+.myDescription{
+  text-align: left;
 }

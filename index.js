@@ -1,14 +1,14 @@
 //jshint esversion: 6
 $(document).ready(function(){
-  $("#myPicShow").hide();
+  $("#myPicShow").visible();
 });
 
-$(function(){
-  $("#myPic").click(function(e){
-    e.preventDefault();
-    $("#myPicShow").toggle("slow");
-  });
-});
+// $(function(){
+//   $("#myPic").click(function(e){
+//     e.preventDefault();
+//     $("#myPicShow").toggle("fast");
+//   });
+// });
 
 
   const date = new Date().getFullYear();

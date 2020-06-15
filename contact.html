@@ -7,25 +7,93 @@
     <meta name="keywords" content="David, Balladares, Projects">
     <title>David B: Contact Me</title>
     <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 
   </head>
 
   <body>
-  <div class="top">
-    <a href="index.html" title="David Home Page"><img class="frontpage nav" width="100" height="100" src="images/ce-travel.jpg" alt="David's Home Page"></a>
-    <h1>You can contact me here!</h1>
+    <a href="index.html" title="David Home Page"><img class="frontpage" width="auto" height="100px" src="images/ce-travel.jpg" alt="David's Home Page"></a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="index.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html">Projects / Connect</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <h1>Contact Me</h1>
 </div>
 
+
     <form class="email" action="mailto: davicho_balla@hotmail.com" method="post" enctype="text/plain">
-      <label>Your Full Name</label><br>
-      <input type="text" name="Hello"><br>
-      <label>Your Email</label><br>
-      <input type="email" name="I will reach you to" required> <br>
-      <label>Your Message</label><br>
-      <textarea name="Your message goes here" rows="8" cols="45"></textarea><br>
-      <input class="button" type="submit" value="Send Email">
+
+
+      <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" name="I will reach you to" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">I will never share your email with anyone else.</small>
+    </div>
+
+
+    <div class="form-group">
+  <label class="col-form-label" for="inputDefault">Full Name</label>
+  <input type="text" name="Hello" class="form-control" placeholder="Name" id="inputDefault" required>
+</div>
+
+
+<div class="form-group">
+      <label for="exampleTextarea">Compose</label>
+      <textarea class="form-control" id="exampleTextarea" rows="5"></textarea>
+    </div>
+  </fieldset>
+ <button type="submit" class=" btn btn-primary" value="Send Email">Submit</button>
+</fieldset>
+
+
     </form>
 
+    <ul>
+      <a href="https://github.com/davidballad" target="_blank"><img class="git" src="images/github.png" alt="github logo"></a>
+      <a href="https://linkedin.com/in/david-7a4481164" target="_blank"><img class="git linked" src="images/linked.png" alt="linkedin logo"></a></a>
+    </ul>
+
+
+    <div class="footer navbar-dark bg-primary">
+          <h2 class="help"><a href="#top">Back to top</a></h2>
+    		<p><em>I'm on Social Media:</em></p>
+
+        <div class="linkme">
+
+        <div>
+        <a  class="a-link" href="https://www.instagram.com/davidballad/" target="_blank"><img class="socialimg" src="images/insta.jpg"></a>
+        </div>
+        <div class="moo">
+          <img class="socialimg " src="images/dis.png">
+          <span class="mootext">davis1243#2356</span>
+        </div>
+
+        </div>
+
+
+        <p class="cdate"> David Balladares</p>
+      </div>
+
+
+        <p class="cdate"> David Balladares</p>
+      </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="index.js" charset="utf-8"></script>
   </body>
 </html>
