@@ -203,8 +203,8 @@ p{
 
   /* Position the tooltip text - see examples below! */
   position: absolute;
-  left: 30px;
-  z-index: 1;
+  left: 45px;
+  z-index: 5;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
