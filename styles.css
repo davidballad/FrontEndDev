@@ -181,6 +181,8 @@ p{
 
 .me{
   display: inline-grid;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .image-me{
@@ -253,4 +255,5 @@ form label{
 
 .myDescription{
   text-align: left;
+  border-style: hidden;
 }
