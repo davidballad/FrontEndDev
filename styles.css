@@ -180,13 +180,14 @@ p{
 }
 
 .me{
-  display: inline-grid;
+  display: inline-flex;
+  margin-top: 20px;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .image-me{
-  height: 900px;
+  height: 9me00px;
   margin-bottom: 10px;
 }
 
@@ -257,4 +258,8 @@ form label{
 .myDescription{
   text-align: left;
   border-style: hidden;
+}
+
+.two{
+  display: flex;
 }
